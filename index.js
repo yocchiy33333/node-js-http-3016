@@ -78,5 +78,5 @@ console.info(`Requested by ${req.socket.remoteAddress}`);
   });
 const port = process.env.PORT || 8000;
 server.listen(port, () => {
-   console.error('Liestening on', e);
+   console.error(`Liestening on ${port}`);
 });
